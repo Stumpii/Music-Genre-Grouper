@@ -1,0 +1,589 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="textBox1.Text" xml:space="preserve">
+    <value>Afro-Pop: Afrobeat
+Afro-Pop: Apala
+Afro-Pop: Benga
+Afro-Pop: Bikutsi
+Afro-Pop: Cape Jazz
+Afro-Pop: Chimurenga
+Afro-Pop: Fuji
+Afro-Pop: Highlife
+Afro-Pop: Hiplife
+Afro-Pop: Isicathamiya
+Afro-Pop: Jit
+Afro-Pop: Juju
+Afro-Pop: Kizomba
+Afro-Pop: Kuduro
+Afro-Pop: Kwaito
+Afro-Pop: Kwela
+Afro-Pop: Makossa
+Afro-Pop: Marrabenta
+Afro-Pop: Mbalax
+Afro-Pop: Mbaqanga
+Afro-Pop: Mbube
+Afro-Pop: Morna
+Afro-Pop: Museve
+Afro-Pop: Palm-Wine
+Afro-Pop: Rai
+Afro-Pop: Sakara
+Afro-Pop: Salegy
+Afro-Pop: Soukous
+Afro-Pop: Taarab
+Avant-Garde: Avant-Garde
+Avant-Garde: Experimental
+Avant-Garde: Lo-fi
+Avant-Garde: Minimalist
+Avant-Garde: Musique Concrete
+Ballroom: Bolero
+Ballroom: Cha-cha-cha
+Ballroom: East Coast Swing
+Ballroom: Foxtrot
+Ballroom: Jive
+Ballroom: Paso Doble
+Ballroom: Quickstep
+Ballroom: Rumba
+Ballroom: Tango
+Ballroom: Viennese Waltz
+Ballroom: Waltz
+Blues: Blues
+Blues: Delta Blues
+Blues: Electric Blues
+Blues: Fife and Drum Blues
+Blues: Jump Blues
+Blues: Piano Blues
+Classical: Classical
+Classical: Classical Music
+Classical: Contemporary Classical
+Classical: Sonata
+Classical: Symphony
+Country: Alternative Country
+Country: Americana
+Country: Bakersfield Sound
+Country: Bluegrass
+Country: Boogie-Woogie
+Country: Close Harmony
+Country: Country
+Country: Country Blues
+Country: Country Pop
+Country: Country Rock
+Country: Honky Tonk
+Country: Nashville Sound/Countrypolitan
+Country: Neotraditional country
+Country: Outlaw Country
+Country: Polka
+Country: Progressive Bluegrass
+Country: Progressive Country
+Country: Revival
+Country: Rockabilly
+Country: Traditional Bluegrass
+Country: Western Country
+Country: Western Swing
+Easy Listening: Background Music
+Easy Listening: Beautiful Music
+Easy Listening: Easy Listening
+Easy Listening: Elevator Music
+Easy Listening: Furniture Music
+Easy Listening: Lounge
+Easy Listening: Middle of the Road
+Electronic: Acid
+Electronic: Acid Breaks
+Electronic: Acid Electronic
+Electronic: Acid House
+Electronic: Alternative Hip-Hop
+Electronic: Ambient
+Electronic: Ambient House
+Electronic: Big Beat
+Electronic: Bitcore
+Electronic: Breakbeat
+Electronic: Chicano Rap
+Electronic: Chillout
+Electronic: Christian Gangsta Rap
+Electronic: Christian Rap
+Electronic: Classic Trance
+Electronic: Club
+Electronic: Club-House
+Electronic: Crunk
+Electronic: Dance
+Electronic: Dark Ambient
+Electronic: Darkcore
+Electronic: Dirty Rap/Pornocore
+Electronic: Downtempo
+Electronic: Dream
+Electronic: Drum &amp; Bass
+Electronic: Dubstep
+Electronic: East Coast Hip-Hop
+Electronic: Electro
+Electronic: Electroclash
+Electronic: Electro-Hop
+Electronic: Electro-House
+Electronic: Electronic
+Electronic: Electronica
+Electronic: Euro Trance
+Electronic: Euro-Dance
+Electronic: Euro-House
+Electronic: Euro-Techno
+Electronic: Folktronica
+Electronic: Fusion
+Electronic: Gabba
+Electronic: Gangsta
+Electronic: Gangsta-Rap
+Electronic: G-Funk
+Electronic: Glitch
+Electronic: Goa
+Electronic: Goa Trance
+Electronic: Grime
+Electronic: Happy Hardcore
+Electronic: Hard Trance
+Electronic: Hardcore
+Electronic: Hardcore Techno
+Electronic: Hardstyle Trance
+Electronic: Hi-NRG
+Electronic: Hip-Hop
+Electronic: Horrorcore
+Electronic: House
+Electronic: Hyphy
+Electronic: IDM
+Electronic: Industrial
+Electronic: Instrumental
+Electronic: Italo-House
+Electronic: Latin Rap
+Electronic: Meditative
+Electronic: Miami Bass
+Electronic: Midwest Hip-Hop
+Electronic: Political Hip-Hop
+Electronic: Progressive Electronic
+Electronic: Progressive Trance
+Electronic: Psychedelic
+Electronic: Psychedelic Trance
+Electronic: Rap Metal
+Electronic: Rap Rock
+Electronic: Rapcore
+Electronic: Rave
+Electronic: Southern Hip-Hop
+Electronic: Space
+Electronic: Squee
+Electronic: Tech Trance
+Electronic: Techno
+Electronic: Techno-Industrial
+Electronic: Trance
+Electronic: Trip-Hop
+Electronic: Turntablism
+Electronic: UK Garage
+Electronic: Uplifting
+Electronic: Vocal Trance
+Electronic: West Coast Hip-Hop
+Folk: Alternative Folk
+Folk: Anti-Folk
+Folk: Ballad
+Folk: Folk
+Folk: Folklore
+Folk: Indie Folk
+Folk: Neo-Folk
+Folk: Power Ballad
+Folk: Progressive Folk
+Jazz: Acid Jazz
+Jazz: Asian American Jazz
+Jazz: Avant-Garde Jazz
+Jazz: Bass
+Jazz: Bebop
+Jazz: Big Band
+Jazz: Booty Bass
+Jazz: Cabaret
+Jazz: Calypso Jazz
+Jazz: Chamber Jazz
+Jazz: Cool Jazz
+Jazz: Crossover Jazz
+Jazz: Dixieland
+Jazz: Free Jazz
+Jazz: Gypsy Jazz
+Jazz: Hard Bop
+Jazz: Jazz
+Jazz: Jazz Blues
+Jazz: Jazz Fusion
+Jazz: Jazz Rap
+Jazz: Jazz-Funk
+Jazz: Latin Jazz
+Jazz: Mainstream Jazz
+Jazz: M-Base
+Jazz: Mini-Jazz
+Jazz: Modal Jazz
+Jazz: Nu Jazz
+Jazz: Scat
+Jazz: Smooth Jazz
+Jazz: Soul Jazz
+Jazz: Swing
+Jazz: Trad Jazz
+Jazz: Vocal Jazz
+Jazz: West Coast Jazz
+Latin American: Bachata
+Latin American: Baithak Gana
+Latin American: Bossa Nova
+Latin American: Calypso
+Latin American: Chutney
+Latin American: Chutney Soca
+Latin American: Cumbia
+Latin American: Kompa
+Latin American: Latin
+Latin American: Mambo
+Latin American: Merengue
+Latin American: Musica Popular Brasileira
+Latin American: Reggaeton
+Latin American: Rock en Español
+Latin American: Salsa
+Latin American: Samba
+Latin American: Soca
+Latin American: Son
+Latin American: Tejano
+Latin American: Tropicalismo
+Latin American: Zouk
+Metal: Black Metal
+Metal: Brutal Death Metal
+Metal: Christian Metal
+Metal: Crossover Thrash Metal
+Metal: Death Metal
+Metal: Deathcore
+Metal: Doom Metal
+Metal: Drone Metal
+Metal: Folk Metal
+Metal: Funk Metal
+Metal: Glam Metal
+Metal: Gothic Metal
+Metal: Groove Metal
+Metal: Heavy Metal
+Metal: Industrial Metal
+Metal: Melodic Death Metal
+Metal: Melodic Metalcore
+Metal: Metal
+Metal: Metalcore
+Metal: Nu Metal
+Metal: Power Metal
+Metal: Progressive Death Metal
+Metal: Progressive Metal
+Metal: Sludge Metal
+Metal: Speed Metal
+Metal: Symphonic Metal
+Metal: Technical Death Metal
+Metal: Thrash Metal
+Metal: Unblack Metal
+Other: Anime
+Other: Chanson
+Other: Comedy
+Other: Humour
+Other: March
+Other: Musical
+Other: National Anthem
+Other: Opera
+Other: Other
+Other: Pranks
+Other: Primus
+Other: Satire
+Other: Soundtrack
+Other: Speech
+Other: Worldbeat
+Pop: A capella
+Pop: Arab Pop
+Pop: Austro-Pop
+Pop: Balkan Pop
+Pop: Baroque Pop
+Pop: Bubblegum Pop
+Pop: Chinese Pop
+Pop: Dance Pop
+Pop: Disco Polo
+Pop: Duet
+Pop: Electro-Pop
+Pop: Eurobeat
+Pop: Euro-Pop
+Pop: French Pop
+Pop: Hong Kong and Cantonese Pop
+Pop: Hong Kong English Pop
+Pop: Indian Pop
+Pop: Indonesian Pop
+Pop: Iranian Pop
+Pop: Italo-Dance
+Pop: Italo-Disco
+Pop: Jangle Pop
+Pop: Japanese Pop
+Pop: Jpop
+Pop: Korean Pop
+Pop: Latin Pop
+Pop: Levenslied
+Pop: Louisiana Swamp Pop
+Pop: Mandarin Pop
+Pop: Mexican Pop
+Pop: Neder-Pop
+Pop: New Romantic
+Pop: Noise Pop
+Pop: Operatic Pop
+Pop: Pinoy Pop
+Pop: Pop
+Pop: Pop Rap
+Pop: Psychedelic Pop
+Pop: Russian Pop
+Pop: Sophisti-Pop
+Pop: Space Age Pop
+Pop: Sunshine Pop
+Pop: Surf Pop
+Pop: Synth-Pop
+Pop: Taiwanese Pop
+Pop: Teen Pop
+Pop: Thai Pop
+Pop: Traditional Pop Music
+Pop: Turkish Pop
+Pop: Vis-Pop
+Pop: Wonky Pop
+R&amp;B: Boogie
+R&amp;B: Contemporary R&amp;B
+R&amp;B: Deep Funk
+R&amp;B: Disco
+R&amp;B: Doo Wop
+R&amp;B: Funk
+R&amp;B: Go-Go
+R&amp;B: Hip-Hop Soul
+R&amp;B: Neo-Soul
+R&amp;B: New Jack Swing
+R&amp;B: Northern Soul
+R&amp;B: P-Funk
+R&amp;B: Post-Disco
+R&amp;B: R&amp;B
+R&amp;B: Soul
+Rap: Rap
+Reggae: 2 Tone
+Reggae: Dancehall
+Reggae: Dub
+Reggae: Lovers Rock
+Reggae: Ragga
+Reggae: Reggae
+Reggae: Reggaefusion
+Reggae: Rocksteady
+Reggae: Ska
+Regional and National: Arabesque
+Regional and National: Celtic
+Regional and National: Chalga
+Regional and National: Enka
+Regional and National: Ethnic
+Regional and National: Flamenco
+Regional and National: Greek Entechno
+Regional and National: Greek Laika
+Regional and National: Indigenous Music
+Regional and National: Mor Lam Sing
+Regional and National: National Folk
+Regional and National: Native American
+Regional and National: Schlager
+Regional and National: Traditional Folk
+Regional and National: Tribal
+Religious: Contemporary Christian
+Religious: Gospel
+Religious: Gregorian Chant
+Religious: Hymn
+Religious: Spiritual
+Rhythm and Blues: Rhythmic Soul
+Rock: Acid Punk
+Rock: Acid Rock
+Rock: Acoustic
+Rock: Alternative
+Rock: Alternative Rock
+Rock: AlternRock
+Rock: Anarcho-Punk
+Rock: Beat
+Rock: Blues Rock
+Rock: Britpop
+Rock: Chamber Music
+Rock: Chinese Rock
+Rock: Christian Rock
+Rock: Classic Rock
+Rock: Crossover
+Rock: Crust Punk
+Rock: Cult
+Rock: Dark Cabaret
+Rock: Darkwave
+Rock: Deathrock
+Rock: Desert Rock
+Rock: Djent
+Rock: Dream-Pop
+Rock: Drum Solo
+Rock: Electronic Rock
+Rock: Emo
+Rock: Fast Fusion
+Rock: Folk Rock
+Rock: Freestyle
+Rock: Garage Rock
+Rock: Glam Rock
+Rock: Gothic
+Rock: Gothic Rock
+Rock: Grindcore
+Rock: Grunge
+Rock: Hard Rock
+Rock: Hardcore Punk
+Rock: Indie
+Rock: Indie Pop
+Rock: Indie Rock
+Rock: Industrial Rock
+Rock: Instrumental Pop
+Rock: Instrumental Rock
+Rock: Jazz-Rock
+Rock: J-Rock
+Rock: Jungle
+Rock: Math Rock
+Rock: Mathcore
+Rock: Negerpunk
+Rock: New Age
+Rock: New Prog
+Rock: New Wave
+Rock: Noise
+Rock: Oldies
+Rock: Paisley Underground
+Rock: Polsk Punk
+Rock: Pop Folk
+Rock: Pop Punk
+Rock: Pop Rock
+Rock: Pop/Funk
+Rock: Post-BritPop
+Rock: Post-Grunge
+Rock: Post-Hardcore
+Rock: Post-Punk
+Rock: Post-Rock
+Rock: Power Pop
+Rock: Progressive Rock
+Rock: Psychedelic Rock
+Rock: Psychobilly
+Rock: Punk
+Rock: Punk Rock
+Rock: Retro
+Rock: Rock
+Rock: Rock &amp; Roll
+Rock: Rock and Roll
+Rock: Screamo
+Rock: Shoegazer
+Rock: Slow Jam
+Rock: Slow Rock
+Rock: Soft Rock
+Rock: Southern Rock
+Rock: Space Rock
+Rock: Surf Rock
+Rock: Symphonic Rock
+Rock: Terror
+Rock: Thrashcore
+Rock: Top 40
+Rock: Vocal
+Rock: Weld
+Rock: World Fusion</value>
+  </data>
+</root>
